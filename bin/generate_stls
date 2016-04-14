@@ -1,0 +1,2 @@
+eval "$OPENSCAD_PATH/Contents/MacOS/OpenSCAD -D enable_supports=0 -o "stl/Spool.stl" Spool.scad"
+eval "$OPENSCAD_PATH/Contents/MacOS/OpenSCAD -D enable_spool=0 -o "stl/Supports.stl" Spool.scad"
